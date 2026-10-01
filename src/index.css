@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-black: #000000;
+  --color-tv-darkBg: #090a0d;
+  --color-tv-cardBg: #131722;
+  --color-tv-cardHover: #1e222d;
+  --color-tv-border: #2a2e39;
+  --color-tv-subtleBorder: #1f232f;
+  --color-tv-textPrimary: #f0f3fa;
+  --color-tv-textSecondary: #787b86;
+  --color-tv-brandBlue: #2962ff;
+  --color-tv-green: #089981;
+  --color-tv-red: #f23645;
+}
+
+/* Subtle dark-mode custom scrollbar */
+::-webkit-scrollbar {
+  height: 6px;
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #090a0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2e39;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #434651;
+}
+
+/* Parallelogram hero CTA button cut */
+.tv-skew-cta {
+  transform: skewX(-14deg);
+  border-radius: 8px;
+}
+.tv-skew-cta-inner {
+  transform: skewX(14deg);
+}
+
+/* Subtle glowing grid background effect */
+.hero-glow-radial {
+  background: radial-gradient(circle 600px at 50% 120px, rgba(41, 98, 255, 0.09), transparent 70%);
+}
+
+.candlestick-glow {
+  filter: drop-shadow(0 0 10px rgba(8, 153, 129, 0.25));
+}

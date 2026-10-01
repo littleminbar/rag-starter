@@ -1,0 +1,6 @@
+{
+  "name": "TradingView — Track All Markets, Explore Ideas & Supercharts",
+  "description": "Where the world does markets. Real-time quotes, advanced Supercharts, community trading ideas, market screeners, and broker integrations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
